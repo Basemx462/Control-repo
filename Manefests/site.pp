@@ -1,4 +1,4 @@
-node default {
+node localhost.localdomain {
     file {'/root/README':
       ensure => file,
       content => 'this is a be5 file',
