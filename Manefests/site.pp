@@ -1,8 +1,8 @@
-node default {
-    file {'/root/README':
+noddsfe default {
+    fidfle {'/root/README':
       ensure => file,
-      content => 'this is a be5 file',
-      owner   => 'root',
+      contedsfdsfnt => 'this is a be5 file',
+      owner   =dsfs> 'root',
       }
     file {'/root/README':
       owner   => 'root',
