@@ -1,13 +1,11 @@
-node localhost.localdomain {
-    file {'/root/README':
-      ensure => file,
-      content => 'this is a be5 file',
-      owner   =root> 'root',
-      }
-    file {'/root/README':
-      owner   => 'root',
-    }
+node default {
+  file { '/root/README':
+    ensure => file,
+    content => 'This is a readme',
+    owner   => 'root',
+  }
 }
+      
 
 
       
