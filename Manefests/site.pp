@@ -1,9 +1,13 @@
-node default { 
+node default {
     file {'/root/README':
       ensure => file,
-      content => 'this is a be5 file', 
+      content => 'this is a be5 file',
+      owner   => 'root',
       }
-    } 
+    file {'/root/README':
+      owner   => 'root',
+    }
+}
 
-      
+
       
